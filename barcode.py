@@ -14,7 +14,7 @@ barcode = input("Please input your barcode ")
 #Checking if the barcode is 13 chracters in length 
 if len(barcode) == 13:
     #Then giving country code and manufacturer code
-    print(f"Your barcode is {barcode}")
+    print(f"code Your barcode is {bar}")
     print(f"Your country code {barcode[0:2]}")
     print(f"The manufacturer code is {barcode[2:7]}")
 else:
